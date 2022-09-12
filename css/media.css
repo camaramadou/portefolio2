@@ -1,0 +1,160 @@
+@media all and (min-width: 375px) and (max-width:1000px) {
+
+    header{
+        margin-bottom: 20px;
+        
+    }
+    nav{
+       width: -2px;
+    }
+   .onglets a{
+    
+    height: 30px;
+    width: 42px;
+    flex-flow: column;
+        flex-wrap: initial;
+        flex-direction: column;
+    justify-content: space-between;
+    display: none;
+   
+   }
+   .entete{
+
+    text-align: center;
+   }
+   .entete .nom{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+   }
+   /* PARTI A propos */
+   
+   .corp h1{
+    margin-top: 300px;
+    font-size: 2em;
+    display: flex;
+    text-align: center;
+    margin-left: 150px;
+   }
+   .corp h6{
+    margin-top: 200px;
+    margin-bottom: 90px;
+   }
+   .amadou{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 50px;
+
+   }
+   .amadou .img{
+    margin-top: 30px;
+    margin-left: -150px;
+    
+   }
+   .amadou .title{
+    margin-left: -100px;
+    
+   }
+   /* Fin a propos */
+
+   /* Debut formation */
+   .camara h1{
+    margin-top: 60px;
+    font-size: 2em;
+    display: flex;
+    text-align: center;
+    margin-left: 120px;
+   }
+   .blocs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   }
+   .blocs .bloc{
+    margin-left: -20px;
+   }
+   /*Fin formation  */
+   /* Debut competence */
+
+   .comp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   }
+   .comp .title{
+    margin-top: -70px;
+    font-size: 2em;
+    display: flex;
+    text-align: center;
+    margin-left: 130px;
+   }
+   .comp h4{
+    margin-top: 40px;
+   }
+   
+   /* Fin competence */
+
+   /* Debut projet */
+   .projet{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+   }
+   .projet .cap{
+    margin-top: 80px;
+    margin-left: 50px;
+   }
+   .projet .cap .cercle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -45px;
+    margin-left: 90px;
+   }
+   .projets h1{
+    margin-top: 20px;
+    font-size: 2em;
+    display: flex;
+    text-align: center;
+    margin-left: 150px;
+   }
+   .projets h4{
+    margin-top: 60px;
+
+   }
+   .cap h2{
+    margin-left: -80px;
+
+   }
+   /* Fin projet */
+
+   /* Debut contact */
+   .contact{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+   }
+   .contacts h1{
+    font-size: 2em;
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+   }
+   .contacts h4{
+    margin-top: 60px;
+    margin-left: -250px;
+   }
+   .contact .cordon{
+    margin-top: 20px;
+    margin-left: -90px;
+   }
+   .cod{
+    margin-left: -95px;
+   }
+  
+   /* Fin contact */
+}
